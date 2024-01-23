@@ -6,6 +6,7 @@
 @import "components/navigation-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -14,4 +15,7 @@ body {
     font-family: "Montserrat", sans-serif;
     height: 100vh;
     color: var(--dark-gray);
+}
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }
