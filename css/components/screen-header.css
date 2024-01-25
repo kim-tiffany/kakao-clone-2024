@@ -9,6 +9,9 @@
     font-size: 30px;
     font-weight: 500;
 }
+.screen-header__icons {
+    position: relative;
+}
 .screen-header__icons span {
     margin-left: 25px;
 }
@@ -16,6 +19,6 @@
     color: #ff6228;
     font-size: 60px;
     position: absolute;
-    right: 14px;
-    top: -1px;
+    right: -8px;
+    bottom: 24px;
 }
