@@ -1,0 +1,27 @@
+.settings-list {
+    border-bottom: var(--main-border);
+}
+
+.settings__setting {
+    padding: 20px 0px;
+    font-size: 22px;
+}
+
+.settings__setting :last-child {
+    margin-bottom: 30px;
+}
+
+.settings__setting i {
+    margin-right: 15px;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+.settings-column {
+    display: flex;
+    justify-content: space-between;
+}
+.settings__setting-column-title {
+    opacity: 0.6;
+    font-weight: 500;
+}
