@@ -98,11 +98,11 @@
 }
 
 .reply .reply__column:first-child {
-    width: 10%;
+    width: 5%;
 }
 
 .reply .reply__column:last-child {
-    width: 90%;
+    width: 95%;
     position: relative;
 }
 .reply i {
