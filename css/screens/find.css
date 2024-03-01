@@ -74,14 +74,36 @@
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 25px;
     color: white;
-    padding: 6px 7px;
+    padding: 7px;
     display: flex;
     align-items: center;
     position: absolute;
-    font-size: 15px;
+
     right: 30px;
-    bottom: 350px;
+    bottom: 390px;
+    font-size: 15px;
 }
 .open-post__heart-count span {
     margin-left: 4px;
+}
+
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: red;
+        transform: scale(2);
+    }
+
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeat 0.7s linear infinite;
 }
